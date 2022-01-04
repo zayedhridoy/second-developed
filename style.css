@@ -1,0 +1,70 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.blue-color{
+    color: rgb(41, 8, 187);
+}
+.white-color{
+    color: rgb(7, 31, 83);
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.top-banner{
+    background-image: url(images/19-29-18-gear-and-technology-line-space-abstract-background-vector.jpg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    color: white;
+    background-image:linear-gradient(yellow,tomato);
+    font-weight: 700;
+    padding: 10px 50px;
+    border-radius: 5px;
+}
+.get-your{
+    background-image: url(images/geo\ bg...jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp-item{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#buy-it{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#rent-it{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(0, 255, 234),green);
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+}
